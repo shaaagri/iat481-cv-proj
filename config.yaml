@@ -1,0 +1,15 @@
+path: '/content/drive/MyDrive/IAT481/481 CV Project/Datasets/Final'
+train: '/content/drive/MyDrive/IAT481/481 CV Project/Datasets/Final/train/images'
+val: '/content/drive/MyDrive/IAT481/481 CV Project/Datasets/Final/valid/images'
+test: '/content/drive/MyDrive/IAT481/481 CV Project/Datasets/Final//test/images'
+
+# Classes
+nc: 4 # replace based on your dataset's number of classes
+
+# Class names
+# replace all class names with your own classes' names
+names:
+  0: bear
+  1: raccoon
+  2: rat
+  3: skunk
