@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Skunk']
+
+roboflow:
+  workspace: practicas-6jgbv
+  project: skunk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/practicas-6jgbv/skunk/dataset/1
