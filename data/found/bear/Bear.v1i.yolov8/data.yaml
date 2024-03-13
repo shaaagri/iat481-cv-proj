@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Bear']
+
+roboflow:
+  workspace: school-thz5l
+  project: bear-vejfe
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/school-thz5l/bear-vejfe/dataset/1

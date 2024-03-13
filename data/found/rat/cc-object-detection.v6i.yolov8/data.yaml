@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['rat']
+
+roboflow:
+  workspace: ccpestdetection
+  project: cc-object-detection
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ccpestdetection/cc-object-detection/dataset/6
